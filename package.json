@@ -15,9 +15,8 @@
          "import": "./index.js",
          "require": "./cjs/index.js"
       },
-      "./types/*": "./types/*.d.ts",
-      "./cjs/*": "./cjs/*.js",
       "./*": {
+         "types": "./types/*.d.ts",
          "import": "./*.js",
          "require": "./cjs/*.js"
       }
